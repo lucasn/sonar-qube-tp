@@ -1,4 +1,4 @@
-from Employee import Employee
+from employee.Employee import Employee
 
 class Teacher(Employee):
     """
