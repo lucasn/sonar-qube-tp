@@ -1,9 +1,9 @@
-from .Employee import Employee
+from . import Employee
 import pytest
 
 @pytest.fixture
 def employee_instance():
-    employee = Employee('Paul', 'Paul', 10)
+    employee = Employee.Employee('Paul', 'Paul', 10)
     return employee
 
 def test_should_retrieve_employee_fullname(employee_instance):
