@@ -1,4 +1,4 @@
-from . import Employee
+from employee import Employee
 import pytest
 
 @pytest.fixture
